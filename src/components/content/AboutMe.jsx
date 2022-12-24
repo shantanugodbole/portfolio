@@ -15,9 +15,9 @@ function AboutMe() {
     }
 
     return (
-        <div className="bg-neutral-900 h-screen w-screen">
+        <div className="bg-neutral-900 h-screen w-5/6">
             <div className="h-1/5 bg-gradient-to-b from-green-800 to-neutral-900">
-                <div className="text-white text-3xl font-bold py-20 px-20">
+                <div className="text-white text-3xl font-bold py-20 pl-20">
                     <p>{displayMessage}</p>
                 </div>
             </div>
@@ -26,7 +26,7 @@ function AboutMe() {
                     <img alt="shantanu" src="shantanu.png"></img>
                 </div>
                 <div className="py-10">
-                    <div className="flex items-baseline px-30">
+                    <div className="flex items-baseline pl-30">
                         <p className="text-white font-bold text-6xl px-5">Hi!</p>
                         <img alt="wavinghand" className="w-16 h-16 animate-bounce" src="hi_emoji.png"></img>
                     </div>
@@ -35,7 +35,7 @@ function AboutMe() {
                     </div>
                 </div>
             </div>
-            <div className="h-1/5 text-white font-bold text-2xl px-20 py-20">
+            <div className="h-1/5 text-white font-bold text-2xl pl-20 py-20">
                 <p>Passionate about tech, sports and random obscure facts</p>
                 <p>Shape shifting from one form into another</p>
             </div>
