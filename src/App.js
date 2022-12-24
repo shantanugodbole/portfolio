@@ -34,7 +34,7 @@ function App() {
 
   return (
     <div className="flex">
-      <div className='w-1/5 bg-red-100 h-screen bg-black'>
+      <div className='w-1/5 bg-red-100 h-screen bg-black text-white'>
       <p>Left Nav</p>
         <div className="m-auto">
         <button onClick={() => handleClick('essay')}>Essay</button><br></br>
