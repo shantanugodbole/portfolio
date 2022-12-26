@@ -39,6 +39,8 @@ function App() {
   return (
     <div className="flex">
       <div className='w-1/6 bg-red-100 h-screen bg-black text-white'>
+      <div className="">
+      <div>
       <p className="px-5 py-5 text-3xl font-bold">ShanGod</p>
         <div className="py-2">
         <NavButton onClick={() => handleClick('home')} name="Home" img="home.png"/>
@@ -47,6 +49,11 @@ function App() {
         <NavButton onClick={() => handleClick('workexperience')} name="Work Experience" img="work.png"/>
         <NavButton onClick={() => handleClick('skills')} name="Skills" img="skills.png"/>
         </div>
+      </div>
+        <div>
+          <img src="twitter.png" alt="logo" className="w-10 h-10"></img>
+        </div>
+      </div>
       </div>
       {rightPanel}
     </div>
