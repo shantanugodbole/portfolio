@@ -21,6 +21,13 @@ function WorkExperience(){
               from SAP ecosystem into Snowflake and Sigma archetype to provide
               better business insights
             </p>
+            <div className="flex pt-1">
+                <p className="font-bold text-white"> Worked with: </p>
+                <img src="sigma.png" alt="logo" className="h-5 w-5 mx-2"></img>
+                <img src="sf.webp" alt="logo" className="h-5 w-5 mx-2"></img>
+                <img src="dbt.png" alt="logo" className="h-5 w-15 mx-2"></img>
+                <img src="airflow.png" alt="logo" className="h-5 w-15 mx-2"></img>
+            </div>
           </li>
           <li class="mb-10 ml-4">
             <div class="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
@@ -34,6 +41,13 @@ function WorkExperience(){
               Created a system using React to streamline onboarding of new
               recruits into their remote roles at the company
             </p>
+            <div className="flex pt-1">
+                <p className="font-bold text-white"> Worked with: </p>
+                <img src="logo512.png" alt="logo" className="h-5 w-5 mx-2"></img>
+                <img src="gcp.png" alt="logo" className="h-5 w-10 "></img>
+                <img src="tailwindcss.png" alt="logo" className="h-5 w-15 mx-2"></img>
+                <img src="firebase.png" alt="logo" className="h-5 w-15 mx-2"></img>
+            </div>
           </li>
           <li class="mb-10 ml-4">
             <div class="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
@@ -49,6 +63,12 @@ function WorkExperience(){
               gained great experience of the Agile process and wrote code for
               deployed apps.
             </p>
+            <div className="flex">
+                <p className="font-bold text-white"> Worked with: </p>
+                <img src="flutter.png" alt="logo" className="h-5 w-5 mx-2"></img>
+                <img src="gcp.png" alt="logo" className="h-5 w-10 "></img>
+                <img src="firebase.png" alt="logo" className="h-5 w-15 mx-2"></img>
+            </div>
           </li>
 
           <li class="mb-10 ml-4">
@@ -65,6 +85,12 @@ function WorkExperience(){
               diseases using leaf images and integrating the classifer into a
               mobile application for farmers to use.
             </p>
+            <div className="flex">
+                <p className="font-bold text-white"> Worked with: </p>
+                <img src="flutter.png" alt="logo" className="h-5 w-5 mx-2"></img>
+                <img src="python.png" alt="logo" className="h-5 w-5 mx-2"></img>
+                <img src="firebase.png" alt="logo" className="h-5 w-15 mx-2"></img>
+            </div>
           </li>
         </ol>
             </div>
