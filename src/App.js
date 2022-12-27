@@ -38,8 +38,7 @@ function App() {
 
   return (
     <div className="flex">
-      <div className='w-1/6 bg-red-100 h-screen bg-black text-white'>
-      <div className="">
+      <div className='flex flex-col justify-between w-1/6 bg-red-100 h-screen bg-black text-white'>
       <div>
       <p className="px-5 py-5 text-3xl font-bold">ShanGod</p>
         <div className="py-2">
@@ -50,10 +49,12 @@ function App() {
         <NavButton onClick={() => handleClick('skills')} name="Skills" img="skills.png"/>
         </div>
       </div>
-        <div>
+        <div className="flex justify-around mb-5">
           <img src="twitter.png" alt="logo" className="w-10 h-10"></img>
+          <img src="linkedin.png" alt="logo" className="w-10 h-10"></img>
+          <img src="spotify_logo.png" alt="logo" className="w-10 h-10"></img>
+          <img src="gmail.png" alt="logo" className="w-10 h-10"></img>
         </div>
-      </div>
       </div>
       {rightPanel}
     </div>
