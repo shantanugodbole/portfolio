@@ -9,6 +9,11 @@ import Interests from "./components/content/Interests";
 import NavButton from "./components/NavButton";
 
 function App() {
+
+  function handleSocialClick(url){
+    window.open(url)
+  }
+
   // right panel will be dynamic
   var rightPanel = <AboutMe/>
   const [content, setContent] = useState('null');
@@ -50,10 +55,10 @@ function App() {
         </div>
       </div>
         <div className="flex justify-around mb-5">
-          <img src="twitter.png" alt="logo" className="w-10 h-10"></img>
-          <img src="linkedin.png" alt="logo" className="w-10 h-10"></img>
-          <img src="spotify_logo.png" alt="logo" className="w-10 h-10"></img>
-          <img src="gmail.png" alt="logo" className="w-10 h-10"></img>
+          <img src="twitter.png" alt="logo" className="w-10 h-10" onClick={()=>handleSocialClick('https://twitter.com/shangod12')}></img>
+          <img src="linkedin.png" alt="logo" className="w-10 h-10" onClick={()=>handleSocialClick('https://www.linkedin.com/in/shantanugodbole12/')}></img>
+          <img src="spotify_logo.png" alt="logo" className="w-10 h-10" onClick={()=>handleSocialClick('https://open.spotify.com/user/27l5r0wvnlapn8j6srcv1dzh2')}></img>
+          <img src="gmail.png" alt="logo" className="w-10 h-10" onClick={()=>handleSocialClick('mailto:shantanugodbole2000@gmail.com')}></img>
         </div>
       </div>
       {rightPanel}
