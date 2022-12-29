@@ -38,37 +38,38 @@ function Interests() {
                     </div>
                 </div>
             </div>
+            
             <div className="px-10 h-1/4 py-5">
                 <p className="text-white font-bold text-xl">Skills</p>
-                <div className="grid grid-cols-4 grid-rows-2 gap-x-5 gap-y-5 px-2">
-                    <div class="bg-gray-200 rounded-lg dark:bg-gray-700 h-full">
-                        <div class="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-1/4"> 45%</div>
+                <div className="grid grid-cols-4 grid-rows-2 gap-x-5 gap-y-10 px-2 mt-10">
+                <div class="h-6 bg-gray-200 rounded-lg dark:bg-gray-700">
+                        <div class="h-full bg-blue-600 text-sm font-medium text-blue-100 text-left p-0.5 leading-none rounded-lg w-10/12">Problem Solving</div>
                     </div>
-                    <div class="bg-gray-200 rounded-lg dark:bg-gray-700">
-                        <div class="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-1/4"> 45%</div>
+                    <div class="h-6 bg-gray-200 rounded-lg dark:bg-gray-700">
+                        <div class="h-full bg-blue-600 text-sm font-medium text-blue-100 text-left p-0.5 leading-none rounded-lg w-10/12">Algorithms</div>
                     </div>
-                    <div class="bg-gray-200 rounded-lg dark:bg-gray-700">
-                        <div class="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-1/4"> 45%</div>
+                    <div class="h-6 bg-gray-200 rounded-lg dark:bg-gray-700">
+                        <div class="h-full bg-blue-600 text-sm font-medium text-blue-100 text-left p-0.5 leading-none rounded-lg w-11/12">Data Structures</div>
                     </div>
-                    <div class="bg-gray-200 rounded-lg dark:bg-gray-700">
-                        <div class="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-1/4"> 45%</div>
+                    <div class="h-6 bg-gray-200 rounded-lg dark:bg-gray-700">
+                        <div class="h-full bg-blue-600 text-sm font-medium text-blue-100 text-left p-0.5 leading-none rounded-lg w-9/12">Database Systems</div>
                     </div>
-                    <div class="bg-gray-200 rounded-lg dark:bg-gray-700">
-                        <div class="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-1/4"> 45%</div>
+                    <div class="h-6 bg-gray-200 rounded-lg dark:bg-gray-700">
+                        <div class="h-full bg-blue-600 text-sm font-medium text-blue-100 text-left p-0.5 leading-none rounded-lg w-11/12">Mobile Development</div>
                     </div>
-                    <div class="bg-gray-200 rounded-lg dark:bg-gray-700">
-                        <div class="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-1/4"> 45%</div>
+                    <div class="h-6 bg-gray-200 rounded-lg dark:bg-gray-700">
+                        <div class="h-full bg-blue-600 text-sm font-medium text-blue-100 text-left p-0.5 leading-none rounded-lg w-1/2">Web Development</div>
                     </div>
-                    <div class="bg-gray-200 rounded-lg dark:bg-gray-700">
-                        <div class="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-1/4"> 45%</div>
+                    <div class="h-6 bg-gray-200 rounded-lg dark:bg-gray-700">
+                        <div class="h-full bg-blue-600 text-sm font-medium text-blue-100 text-left p-0.5 leading-none rounded-lg w-1/2">System Design</div>
                     </div>
-                    <div class="bg-gray-200 rounded-lg dark:bg-gray-700">
-                        <div class="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full w-1/4"> 45%</div>
+                    <div class="h-6 bg-gray-200 rounded-lg dark:bg-gray-700">
+                        <div class="h-full bg-blue-600 text-sm font-medium text-blue-100 text-left p-0.5 leading-none rounded-lg w-1/2">Operating Systems</div>
                     </div>
                 </div>
             </div>
             <div className="px-10">
-                <p>Interests</p>
+                <p className="text-white font-bold text-xl">Interests</p>
             </div>
         </div>
     );
