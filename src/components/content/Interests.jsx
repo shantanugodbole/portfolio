@@ -1,6 +1,20 @@
 import React from "react";
 
 function Interests() {
+    let interestArray = [
+        'Deep Learning',
+        'Astronomy',
+        'Finance',
+        'Technology',
+        'Sports',
+        'Running',
+        'Movies',
+        'Writing',
+        'Music',
+        'Books',
+        'Travel',
+        'Obscure Trivia'
+    ];
     return (
         <div className="w-5/6 bg-neutral-900">
             <div className="font-bold px-10 py-5 text-2xl mb-5">
@@ -71,18 +85,19 @@ function Interests() {
             <div className="px-10">
                 <p className="text-white font-bold text-xl">Interests</p>
             </div>
+            <div className="px-10 pt-10 grid grid-cols-4 grid-rows-3 gap-x-5 gap-y-6">
+                {interestArray.map((interest)=>{
+                    return(
+                        // 'Hello'
+                        <div className="bg-indigo-700 rounded-full text-center text-xl">
+                            <p>{interest}</p>
+                        </div>
+                        
+                    );
+                })}
+            </div>
         </div>
     );
 }
 
 export default Interests;
-
-// Skills -
-// 1. Problem Solving
-// 2. Algorithms
-// 3. Data Structures
-// 4. Database Management
-// 5. Mobile Development
-// 6. Web Development
-// 7. Deep Learning
-// 8. System Design & Security
