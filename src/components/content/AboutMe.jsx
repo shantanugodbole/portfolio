@@ -21,8 +21,8 @@ function AboutMe() {
                     <p>{displayMessage}</p>
                 </div>
             </div>
-            <div className="flex h-3/5">
-                <div className="py-10 px-10 w-4/5 h-1/2">
+            <div className="lg:flex flex h-3/5">
+                <div className="lg:py-10 lg:px-10 lg:w-4/5 lg:h-1/2 w-1/2">
                     <img alt="shantanu" src="shantanu.png"></img>
                 </div>
                 <div className="py-10">
