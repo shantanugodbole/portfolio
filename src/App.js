@@ -42,7 +42,7 @@ function App() {
   }
 
   return (
-    <div className="flex">
+    <div className="flex h-fit">
       <div className='flex flex-col justify-between md:w-1/6 md:h-screen w-0 bg-black text-white' id="leftnav">
       <div>
       <p className="px-5 py-5 text-3xl font-bold">ShanGod</p>
