@@ -9,7 +9,7 @@ function ProjectTiles(props) {
         window.open(props.url)
     }
     return (
-        <div className="bg-neutral-800 rounded-lg hover:bg-neutral-700 w-1/6" onClick={handleClick}>
+        <div className="bg-neutral-800 rounded-lg hover:bg-neutral-700 w-1/2" onClick={handleClick}>
             <div className="rounded-lg">
                 <img src={props.img} alt="placeholder" className="h-1/3 w-full object-fill"></img>
             </div>

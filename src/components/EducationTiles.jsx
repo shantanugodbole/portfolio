@@ -6,7 +6,7 @@ function EducationTiles(props){
             <div className="px-5 py-5">
                 <img src={props.img} alt="school" className="rounded-lg"></img>
             </div>
-            <div className="text-white font-bold px-5 lg:text-lg text-xs">
+            <div className="text-white font-bold px-5 md:text-base text-xs">
             <div>{props.title}</div>
             <div>{props.description}</div>
             </div>
