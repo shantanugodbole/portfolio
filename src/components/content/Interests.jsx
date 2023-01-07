@@ -1,4 +1,5 @@
 import React from "react";
+import SkillTile from "../SkillTile";
 
 function Interests() {
     let interestArray = [
@@ -14,6 +15,17 @@ function Interests() {
         'Books',
         'Travel',
         'Obscure Trivia'
+    ];
+
+    let skillArray = [
+        ['Problem Solving', 'w-10/12'],
+        ['Algorithms', 'w-10/12'],
+        ['Data Structures','w-11/12'],
+        ['Database Systems','w-9/12'],
+        ['Mobile Dev', 'w-11/12'],
+        ['Web Dev', 'w-1/2'],
+        ['System Design','w-1/2'],
+        ['Operating System','w-1/2']
     ];
     return (
         <div className="md:w-5/6 bg-neutral-900 w-screen md:h-screen h-fit">
@@ -56,30 +68,12 @@ function Interests() {
             <div className="px-10 h-1/4 py-5">
                 <p className="text-white font-bold text-xl">Skills</p>
                 <div className="grid md:grid-cols-4 md:grid-rows-2 grid-cols-1 gap-x-5 gap-y-10 px-2 mt-10">
-                <div class="h-6 bg-gray-200 rounded-lg dark:bg-gray-700">
-                        <div class="h-full bg-blue-600 text-sm font-medium text-blue-100 text-left p-0.5 leading-none rounded-lg w-10/12">Problem Solving</div>
-                    </div>
-                    <div class="h-6 bg-gray-200 rounded-lg dark:bg-gray-700">
-                        <div class="h-full bg-blue-600 text-sm font-medium text-blue-100 text-left p-0.5 leading-none rounded-lg w-10/12">Algorithms</div>
-                    </div>
-                    <div class="h-6 bg-gray-200 rounded-lg dark:bg-gray-700">
-                        <div class="h-full bg-blue-600 text-sm font-medium text-blue-100 text-left p-0.5 leading-none rounded-lg w-11/12">Data Structures</div>
-                    </div>
-                    <div class="h-6 bg-gray-200 rounded-lg dark:bg-gray-700">
-                        <div class="h-full bg-blue-600 text-sm font-medium text-blue-100 text-left p-0.5 leading-none rounded-lg w-9/12">Database Systems</div>
-                    </div>
-                    <div class="h-6 bg-gray-200 rounded-lg dark:bg-gray-700">
-                        <div class="h-full bg-blue-600 text-sm font-medium text-blue-100 text-left p-0.5 leading-none rounded-lg w-11/12">Mobile Development</div>
-                    </div>
-                    <div class="h-6 bg-gray-200 rounded-lg dark:bg-gray-700">
-                        <div class="h-full bg-blue-600 text-sm font-medium text-blue-100 text-left p-0.5 leading-none rounded-lg w-1/2">Web Development</div>
-                    </div>
-                    <div class="h-6 bg-gray-200 rounded-lg dark:bg-gray-700">
-                        <div class="h-full bg-blue-600 text-sm font-medium text-blue-100 text-left p-0.5 leading-none rounded-lg w-1/2">System Design</div>
-                    </div>
-                    <div class="h-6 bg-gray-200 rounded-lg dark:bg-gray-700">
-                        <div class="h-full bg-blue-600 text-sm font-medium text-blue-100 text-left p-0.5 leading-none rounded-lg w-1/2">Operating Systems</div>
-                    </div>
+                    {skillArray.map((item)=>{
+                        return(
+                            <SkillTile text={item[0]} width={item[1]}></SkillTile>
+                        );
+                        
+                    })}
                 </div>
             </div>
             <div className="px-10">
@@ -89,7 +83,7 @@ function Interests() {
                 {interestArray.map((interest)=>{
                     return(
                         // 'Hello'
-                        <div className="bg-indigo-700 rounded-full text-center text-base">
+                        <div className="bg-indigo-700 rounded-full text-center text-base text-white">
                             <p>{interest}</p>
                         </div>
                         
