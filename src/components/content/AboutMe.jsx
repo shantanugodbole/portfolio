@@ -17,7 +17,7 @@ function AboutMe() {
     return (
         <div className="bg-neutral-900 h-screen lg:w-5/6 w-full">
             <div className="h-1/5 bg-gradient-to-b from-green-800 to-neutral-900">
-                <div className="text-white lg:text-3xl text-xl font-bold lg:py-20 pl-20 py-10">
+                <div className="text-white lg:text-3xl text-xl  font-bold lg:py-20 pl-20 py-10">
                     <p>{displayMessage}</p>
                 </div>
             </div>
@@ -35,7 +35,7 @@ function AboutMe() {
                     </div>
                 </div>
             </div>
-            <div className="h-1/5 text-white font-bold lg:text-2xl text-xl lg:pl-20 pl-5 lg:py-20 ">
+            <div className="h-1/5 text-white font-bold lg:text-2xl text-xl lg:pl-20 pl-5 lg:py-20 font-spotify-book">
                 <p>Passionate about tech, sports and random obscure facts</p>
                 <p>Shape shifting from one form into another</p>
             </div>

@@ -83,7 +83,7 @@ function Interests() {
                 {interestArray.map((interest)=>{
                     return(
                         // 'Hello'
-                        <div className="bg-indigo-700 rounded-full text-center text-base text-white">
+                        <div className="bg-blue-600 rounded-full text-center text-base text-white">
                             <p>{interest}</p>
                         </div>
                         
