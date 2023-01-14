@@ -41,6 +41,14 @@ function App() {
     rightPanel = <AboutMe/>
   }
 
+  // if (window.matchMedia('screen and (max-width: 768px)').matches) {
+  //   console.log("Hello World")
+  //   return(
+  //     <div>Mobile Screen</div>
+  //   )
+  // }
+
+
   return (
     <div className="flex">
       <div className='flex flex-col justify-between md:w-1/6 md:h-screen w-0 bg-black text-white' id="leftnav">
@@ -61,7 +69,7 @@ function App() {
           <img src="gmail.png" alt="logo" className="w-10 h-10" onClick={()=>handleSocialClick('mailto:shantanugodbole2000@gmail.com')}></img>
         </div>
       </div>
-      {rightPanel}
+        {rightPanel}
     </div>
   );
 }

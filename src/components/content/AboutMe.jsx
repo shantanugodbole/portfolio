@@ -23,12 +23,12 @@ function AboutMe() {
             </div>
             <div className="md:flex grid grid-col h-3/5">
                 <div className="lg:py-10 lg:px-10 lg:w-4/5 lg:h-1/2 w-1/2">
-                    <img alt="shantanu" src="circle_cropped.png"></img>
+                    <img alt="shantanu" src="circle_cropped-min.webp"></img>
                 </div>
                 <div className="py-10">
                     <div className="flex items-baseline pl-30">
                         <p className="text-white font-bold lg:text-6xl text-4xl px-5">It's me, Hi!</p>
-                        <img alt="wavinghand" className="lg:w-16 lg:h-16 w-8 h-8 animate-bounce" src="hi_emoji.png"></img>
+                        <img alt="wavinghand" className="lg:w-16 lg:h-16 w-8 h-8 animate-bounce" src="hi_emoji.webp"></img>
                     </div>
                     <div className="lg:py-15">
                         <p className="text-white font-bold lg:text-5xl text-3xl lg:py-40 py-10 px-5">I'm Shantanu, an eternally curious, seldom lazy life form </p>
