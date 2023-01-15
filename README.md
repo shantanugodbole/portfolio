@@ -6,6 +6,6 @@ It's not the best of my works, but the inspiration comes from the Spotify UI, a 
 
 There are a few issues when it comes to image rendering and mobile display, I will be patching those up soon!
 
-The site is hosted on Netlify. You can find it [here](https://shangod.netlify.app/)]!
+The site is hosted on Netlify. You can find it [here](https://shangod.netlify.app/)!
 
 Always open to feedback and suggestions!
