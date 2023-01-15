@@ -2,7 +2,7 @@ import React from "react";
 
 function WorkExperience(){
     return (
-        <div className="md:w-5/6 bg-neutral-900 w-full md:h-screen h-fit">
+        <div className="md:w-5/6 bg-neutral-900 w-full m-0 md:h-screen">
             <div className="font-bold px-10 py-10 text-2xl mb-10">
                 <p className="text-white">My Studio Albums</p>
             </div>
@@ -26,7 +26,7 @@ function WorkExperience(){
                 <img src="sigma.png" alt="logo" className="h-5 w-5 mx-2"></img>
                 <img src="sf.webp" alt="logo" className="h-5 w-5 mx-2"></img>
                 <img src="dbt.png" alt="logo" className="h-5 w-15 mx-2"></img>
-                <img src="airflow.png" alt="logo" className="h-5 w-15 mx-2"></img>
+                <img src="airflow.webp" alt="logo" className="h-5 w-15 mx-2"></img>
             </div>
           </li>
           <li class="mb-10 ml-4">

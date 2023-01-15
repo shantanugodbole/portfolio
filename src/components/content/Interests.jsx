@@ -28,15 +28,15 @@ function Interests() {
         ['Operating System','w-1/2']
     ];
     return (
-        <div className="md:w-5/6 bg-neutral-900 w-screen md:h-screen h-fit">
+        <div className="md:w-5/6 bg-neutral-900 w-screen md:h-screen h-fit pt-10">
             <div className="font-bold px-10 md:py-5 text-2xl md:mb-5">
                 <p className="text-white">Studio Sessions</p>
             </div>
             <div className="flex flex-col justify-around px-10 h-1/4">
                 <p className="text-white text-lg font-bold">Tools and Technologies</p>
                 <div className="flex md:flex-row flex-col px-2 items-center">
-                    <p className="text-white font-bold text-xl ">Proficient</p>
-                    <div className="flex md:flex-row flex-col md:space-x-4 pl-10">
+                    <p className="text-white font-bold text-xl p-2">Proficient</p>
+                    <div className="flex md:flex-row pl-10">
                         <img src="flutter.png" alt="Icon" className="w-10 h-10"></img>
                         <img src="python.png" alt="Icon" className="w-10 h-10"></img>
                         <img src="firebase.png" alt="Icon" className="w-10 h-10"></img>
@@ -45,19 +45,19 @@ function Interests() {
                     </div>
                 </div>
                 <div className="flex md:flex-row flex-col px-2 items-center">
-                    <p className="text-white font-bold text-xl">Intermediate</p>
-                    <div className="flex md:flex-row flex-col justify-center space-x-3 pl-4">
+                    <p className="text-white font-bold text-xl p-2">Intermediate</p>
+                    <div className="flex md:flex-row justify-center space-x-3 pl-4">
                         <img src="sf.webp" alt="Icon" className="w-10 h-10 "></img>
                         <img src="logo512.png" alt="Icon" className="w-10 h-10"></img>
-                        <img src="tailwindcss.png" alt="Icon" className="w-15 h-10"></img>
+                        {/* <img src="tailwindcss.png" alt="Icon" className="w-15 h-10"></img> */}
                         <img src="java.png" alt="Icon" className="w-10 h-10"></img>
                         <img src="javascript.png" alt="Icon" className="w-10 h-10"></img>
                     </div>
                 </div>
                 <div className="flex md:flex-row flex-col px-2 items-center">
-                    <p className="text-white font-bold text-xl">Beginner</p>
-                    <div className="flex md:flex-row flex-col space-x-3 pl-14">
-                        <img src="vue.png" alt="Icon" className="w-10 h-10"></img>
+                    <p className="text-white font-bold text-xl p-2">Beginner</p>
+                    <div className="flex md:flex-row  pl-14">
+                        <img src="vue.webp" alt="Icon" className="w-10 h-10"></img>
                         <img src="nodejs.png" alt="Icon" className="w-10 h-10"></img>
                         <img src="grapql.png" alt="Icon" className="w-10 h-10"></img>
                         <img src="go.png" alt="Icon" className="w-10 h-10"></img>
