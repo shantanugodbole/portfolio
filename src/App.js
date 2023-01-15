@@ -37,41 +37,50 @@ function App() {
   else if(content === 'skills'){
     rightPanel = <Interests></Interests>
   }
-  else{
+  else if(content === 'aboutme'){
     rightPanel = <AboutMe/>
   }
-
-  // if (window.matchMedia('screen and (max-width: 768px)').matches) {
-  //   console.log("Hello World")
-  //   return(
-  //     <div>Mobile Screen</div>
-  //   )
-  // }
+  else{
+    handleClick('aboutme')
+  }
+  
 
 
-  return (
-    <div className="flex">
-      <div className='flex flex-col justify-between md:w-1/6 md:h-screen w-0 bg-black text-white' id="leftnav">
+    return (
       <div>
-      <p className="px-5 py-5 text-3xl font-bold">ShanGod</p>
-        <div className="py-2">
-        <NavButton onClick={() => handleClick('home')} name="Home" img="home.png"/>
-        <NavButton onClick={() => handleClick('academics')} name="Academics" img="academics.png"/>
-        <NavButton onClick={() => handleClick('projects')} name="Projects" img="project.png"/>
-        <NavButton onClick={() => handleClick('workexperience')} name="Work Experience" img="work.png"/>
-        <NavButton onClick={() => handleClick('skills')} name="Skills" img="skills.png"/>
+        <div className="flex hidden md:flex">
+        <div className='flex flex-col justify-between md:w-1/6 md:h-screen w-0 bg-black text-white' id="leftnav">
+        <div>
+        <p className="px-5 py-5 text-3xl font-bold">ShanGod</p>
+          <div className="py-2">
+          <NavButton onClick={() => handleClick('home')} name="Home" img="home.png"/>
+          <NavButton onClick={() => handleClick('academics')} name="Academics" img="academics.png"/>
+          <NavButton onClick={() => handleClick('projects')} name="Projects" img="project.png"/>
+          <NavButton onClick={() => handleClick('workexperience')} name="Work Experience" img="work.png"/>
+          <NavButton onClick={() => handleClick('skills')} name="Skills" img="skills.png"/>
+          </div>
         </div>
-      </div>
-        <div className="flex justify-around mb-5">
-          <img src="twitter.png" alt="logo" className="w-10 h-10" onClick={()=>handleSocialClick('https://twitter.com/shangod12')}></img>
-          <img src="linkedin.png" alt="logo" className="w-10 h-10" onClick={()=>handleSocialClick('https://www.linkedin.com/in/shantanugodbole12/')}></img>
-          <img src="spotify_logo.png" alt="logo" className="w-10 h-10" onClick={()=>handleSocialClick('https://open.spotify.com/user/27l5r0wvnlapn8j6srcv1dzh2')}></img>
-          <img src="gmail.png" alt="logo" className="w-10 h-10" onClick={()=>handleSocialClick('mailto:shantanugodbole2000@gmail.com')}></img>
+          <div className="flex justify-around mb-5">
+            <img src="twitter.png" alt="logo" className="w-10 h-10" onClick={()=>handleSocialClick('https://twitter.com/shangod12')}></img>
+            <img src="linkedin.png" alt="logo" className="w-10 h-10" onClick={()=>handleSocialClick('https://www.linkedin.com/in/shantanugodbole12/')}></img>
+            <img src="spotify_logo.png" alt="logo" className="w-10 h-10" onClick={()=>handleSocialClick('https://open.spotify.com/user/27l5r0wvnlapn8j6srcv1dzh2')}></img>
+            <img src="gmail.png" alt="logo" className="w-10 h-10" onClick={()=>handleSocialClick('mailto:shantanugodbole2000@gmail.com')}></img>
+          </div>
         </div>
-      </div>
         {rightPanel}
-    </div>
-  );
+      </div>
+      <div className="md:hidden">
+        <AboutMe/>
+        <Academics/>
+        <WorkExperience/>
+        <Projects/>
+        <Interests/>
+      </div>
+      </div>
+      
+      
+    );
+  
 }
 
 export default App;
