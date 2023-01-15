@@ -33,12 +33,12 @@ function Projects() {
             </div> */}
             <div className="flex justify-center">
             <div className="grid md:grid-cols-3 md:grid-rows-2 grid-cols-1 md:gap-y-8 gap-y-10 justify-items-center">
-                <ProjectTiles img="cdd.jpeg" name="Crop Disease Detection" description="Developed as part of a research internship" stack={cdd_list} url={cdd_url}></ProjectTiles>
+                <ProjectTiles img="cdd.webp" name="Crop Disease Detection" description="Developed as part of a research internship" stack={cdd_list} url={cdd_url}></ProjectTiles>
                 <ProjectTiles img="rip-proxy.png" name="RIP-Proxy" description="A Flutter app leveraging face detection" stack={rip_list} url={rip_url}></ProjectTiles>
                 <ProjectTiles img="sha.png" name="Smart Health Assistant" description="A mobile app bundled with a ML diagnoser" stack={sha_list} url={sha_url}></ProjectTiles>
-                <ProjectTiles img="gharseghumo.jpeg" name="Ghar se Ghumo" description="Using AR to bring sights to your home." stack={gsglist} url={gsg_url}></ProjectTiles>
-                <ProjectTiles img="spotify.png" name="ShanListens" description="A Twitter bot to tweet out the songs I'm currently listening to" stack={sglistenslist} url={shl_url}></ProjectTiles>
-                <ProjectTiles img="aapka dost.jpeg" name="Aapka Dost" description="Bot to answer Covid-19 FAQs" stack={aapkadostlist} url={ado_url}></ProjectTiles>
+                <ProjectTiles img="gharseghumo.webp" name="Ghar se Ghumo" description="Using AR to bring sights to your home." stack={gsglist} url={gsg_url}></ProjectTiles>
+                <ProjectTiles img="spotify.webp" name="ShanListens" description="A Twitter bot to tweet out the songs I'm currently listening to" stack={sglistenslist} url={shl_url}></ProjectTiles>
+                <ProjectTiles img="aapka dost.webp" name="Aapka Dost" description="Bot to answer Covid-19 FAQs" stack={aapkadostlist} url={ado_url}></ProjectTiles>
             </div>
             </div>
             
